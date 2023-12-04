@@ -103,7 +103,7 @@ def is_duplicated(info, data):
 
 def get_data_from_DB():
     try:
-        connection = mysql.connector.connect(user='root', password='123456', host='localhost')
+        connection = mysql.connector.connect(user='root', password='Trinh1406@', host='localhost')
         cursor = connection.cursor()
         cursor.execute("SELECT * FROM test.test_table3")
         data = cursor.fetchall()
